@@ -45,6 +45,17 @@ class _MyHomePageState extends State<MyHomePage> {
           //--------------    
           //--------------
           Container(
+            height: 350,
+            width: 300,
+            color: Colors.yellow,
+            alignment: Alignment.topRight,
+            child: Container(
+              height: 200,
+              width: 150,
+              color: Colors.black,
+              alignment: Alignment.bottomRight,
+              child: Text("Flutter",style: TextStyle(color: Colors.white),),
+            ),
           )
           //--------------
           //--------------Kodları yukarıya yazınız.
